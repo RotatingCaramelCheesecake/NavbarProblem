@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Sustainable Energy Solutions</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="https://webstockreview.net/images/clipart-science-energy-5.png" alt="Logo"/>
+    <span id="business-name">Sustainable Energy Solutions</span>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#Solar_Panels">Solar Panels</a> <!--Refer step 5-->
+      <a class="nav-link" href="#Wind_Turbines">Wind Turbines</a>
+      <a class="nav-link" href="#Batteries">Batteries</a>
+      <a class="nav-link" href="#EV_Chargers">EV Chargers</a>
+    </nav>
+  </header>
+
+  <!--Embedded video, refer step 6-->
+  <main>
+  <h1>
+    Sustainable Energy Solutions
+  </h1>
+  <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+    <fieldset>
+
+      <label for="email" id="email-label">
+        Email
+      <input id="email" name="email" type="email" placeholder="Enter your Email" required />
+      </label>
+
+      <label for="submit">
+        <input type="submit" id="submit" value="Submit Email">
+      </label>
+
+    </fieldset>
+  </form>
+
+  <iframe id="video" width="400" height="200" src="https://www.youtube.com/embed/k6veDQ6nWUQ" title="Solar Power System For Home: Ultimate Beginners Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </video>
+  <section id="Solar_Panels">
+    <h2>Solar Panels</h2>
+    <img src="https://cdn5.vectorstock.com/i/1000x1000/72/04/solar-panel-vector-1627204.jpg" alt="Solar Panel" />
+  </section>
+
+  <section id="Wind_Turbines">
+    <h2>Wind Turbines</h2>
+    <img src="https://static.nena.no/images/productImages/web/Wind%20turbines%20illustration.jpg" alt="Wind Turbine" />
+  </section>
+
+  <section id="Batteries">
+    <h2>Batteries</h2>
+    <img src="https://static.vecteezy.com/system/resources/previews/000/348/496/original/battery-vector-icon.jpg" alt="Batteries" />
+  </section>
+
+  <section id="EV_Chargers">
+    <h2>EV Chargers</h2>
+    <img src="https://img.favpng.com/14/16/0/electric-vehicle-electric-car-charging-station-vector-graphics-png-favpng-Pu3HE6Vv2zYDNZb2hu4Yyw9aW.jpg" alt="EV Charger"
+  </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+
+</html>
